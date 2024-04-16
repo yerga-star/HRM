@@ -1,0 +1,300 @@
+.container-div {
+  margin: 20px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.child-container {
+  display: flex;
+}
+
+.container-header {
+  margin-right: auto;
+}
+
+.container-header h4 {
+  padding-top: 6px;
+  color: rgb(95, 95, 95);
+}
+
+.btn-new {
+  padding-top: 20px;
+}
+
+.btn-new p {
+  color: white;
+  background-color: rgb(232, 120, 40);
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.search-input {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.search-input input:focus {
+  border: 1px solid rgb(232, 120, 40);
+}
+
+.search-input button {
+  cursor: pointer;
+}
+
+.search-input input,
+button {
+  padding: 12px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 8px;
+  outline: none;
+  flex: 1;
+}
+
+.search-input button {
+  font-size: 16px;
+  color: white;
+  background-color: rgb(43, 187, 43);
+}
+
+.bottom-counter {
+  width: 100%;
+  display: flex;
+  gap: 9px;
+  justify-content: flex-end;
+  margin: 15px;
+  padding-right: 25px;
+}
+
+.bottom-counter p {
+  padding: 8px;
+  font-family: fantasy;
+  font-size: 13px;
+}
+
+.day-count {
+  padding: 8px;
+  font-size: 19px;
+}
+
+.count-title {
+  font-family: fantasy;
+  font-size: 14px;
+}
+
+.day-count-container {
+  display: flex;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.sub-count-container {
+  background-color: rgb(243, 243, 243);
+  padding: 8px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 4px;
+  flex: 1;
+  text-align: center;
+}
+
+/* Style the table */
+.employee-table {
+  font-family: fantasy;
+  font-size: 13px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table headers */
+.table-header {
+  background-color: #e98d24;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.table-row:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.table-cell {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.spinner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.edit-button {
+  border: none;
+  cursor: pointer;
+  height: auto;
+  background-color: transparent;
+  height: 20px;
+}
+
+.edit-button:hover {
+  color: #e98d24;
+}
+
+.prev-next button {
+  border: 1px solid rgb(202, 202, 202);
+  background-color: white;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  border-radius: 0;
+  padding: 16px;
+
+}
+
+.page-count {
+  background-color: #e98d24;
+  margin: 0 -9px;
+  color: white;
+}
+
+.rows-per-page {
+  padding: 7px;
+  outline: none;
+  border: 1px solid #e98d24;
+}
+
+.react-select-container {
+  font-size: 13px;
+  font-family: fantasy;
+  border: none;
+}
+
+.react-select__option {
+  font-size: 13px;
+}
+
+.react-select__option:hover {
+  background-color: rgb(232, 120, 40);
+  color: white;
+}
+
+.react-select__control {
+  padding: 3px;
+}
+
+.react-select__control:focus-within {
+  border: 1px solid rgb(232, 120, 40);
+}
+
+.atendance-select {
+  flex: 1;
+}
+
+.atendance .table-header {
+  padding: 10px 0;
+}
+
+.atendance .table-cell {
+  padding-left: 0;
+}
+
+.slip-button {
+  background-color: #e98d24;
+  color: white;
+  padding: 5px;
+}
+
+.date-lable {
+  border-radius: 8px;
+  background-color: white;
+  color: #676767;
+  font-size: 12px;
+  padding-left: 5px;
+}
+.emp-profile, .profile-detail, .personal-info{
+  margin-top: 30px;
+}
+.emp-profile, .profile-nav, .profile-detail-child {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(236, 236, 236);
+  flex: 1;
+}
+
+.profile-child {
+  flex: 1;
+}
+
+.image-container {
+  margin-right: 10px;
+}
+
+.image-container img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.light-p {
+  font-size: 12px;
+}
+
+.id-p, .profile-nav p {
+  font-size: 13px;
+}
+
+.id-p p {
+  padding: 5px;
+}
+
+.detail-d, .profile-detail, .profile-nav, .personal-info {
+  display: flex;
+}
+
+.lighted,
+.light-p {
+  color: gray;
+}
+
+.main-detail p {
+  padding: 5px;
+}
+
+.edit-btn {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  height: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #eb7d00;
+  font-weight: bold;
+}
+
+.profile-nav p{
+  padding: 6px;
+  color: gray;
+}
+.profile-nav :hover, .profile-nav-active{
+color: black;
+cursor: pointer;
+}
+.profile-detail{
+  gap: 30px;
+}
+.lighted{
+  padding-left: 30px;
+}
+td{
+  text-align: left;
+}

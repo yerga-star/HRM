@@ -1,0 +1,86 @@
+.sidebar {
+  width: 210px;
+  background-color: #333;
+  color: #b9b2b2;
+  top: 0;
+  left: 0;
+  transition: width 0.5s;
+  overflow-y: auto; 
+  height: 91.5vh;
+}
+
+.collapsed {
+  width: 50px;
+}
+.selected {
+color: rgb(255, 109, 5);
+}
+.menu, .sub-menu {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.menu-li span:hover{
+  color: white;
+}
+
+.menu-li{
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 13px;
+}
+.sub-menu li {
+  padding: 5px;
+  margin-left: 30px;
+}
+
+.menu li span{
+  margin-left: 10px;
+  display: inline-block;
+}
+.fa-dropdowns{
+float: right;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sidebar.collapsed li span, 
+.sidebar.collapsed .sub-menu, 
+.sidebar.collapsed .fa-dropdowns, .sub-menu.collapsed{
+  display: none;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Add padding to the scrollbar track (background) */
+::-webkit-scrollbar {
+  width: 6px; /* Adjust the width as needed */
+  padding-right: 50px; /* This creates padding on the right side */
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Customize the color */
+  border-radius: 6px; /* Round the corners */
+}
+
+/* Optional: Style the scrollbar track (background) on hover */
+::-webkit-scrollbar:hover {
+  background-color: #f0f0f0; /* Customize the hover color */
+}

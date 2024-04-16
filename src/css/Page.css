@@ -1,0 +1,127 @@
+.project {
+    width: 200px;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-child {
+    flex: 1;
+    min-width: 30%;
+    margin-top: 25px;
+    background-color: #fcfcfc;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 8px;
+}
+
+.project-sub-child{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+}
+.edit-button{
+  flex: 0;
+}
+.description-p{
+    margin-top: 15px;
+    font-family: fantasy;
+    font-size: 13px;
+    color: rgb(108, 108, 108);
+    letter-spacing: 0.2px;
+}
+.deadline-p{
+    margin-top: 15px;
+    font-family: fantasy;
+    font-size: 13px;
+}
+.project-stat-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.green-p{
+    color: rgb(45, 129, 45);
+}
+.stat-b{
+    margin-top: 15px;
+}
+.payslip-div{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.payslip-div b{
+    color: rgb(28, 28, 28);
+    align-self: center;
+    text-decoration: underline;
+}
+.payslip-p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.payslip-detail{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(81, 81, 81);
+    font-size: 14px;
+}
+.emp-name{
+    margin-top: 20px;
+    color: rgb(34, 34, 34);
+}
+.earning{
+    display: flex;
+    margin-top: 20px;
+    padding: 15px;
+}
+.earning div{
+    width: 50%;
+}
+.earning-table td,.net-p { 
+    text-align: left;
+    font-size: 14px;
+    color: rgb(50, 50, 50);
+}
+.as-format{
+    display: flex;
+    font-size: 12px;
+}
+.as-format p{
+    background-color: white;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.net-p{display: flex;}
+.net{
+    color: black;
+}
+.pay-sub-route{
+    display: flex;
+    padding-left: 10px;
+   padding-top: 30px;
+}
+.pay-sub-route a{
+text-decoration: none;
+padding: 0 20px;
+color: gray;
+
+}
+.overtime-div{
+    padding: 40px;
+    background-color: red;
+}
+.under-con img{
+    width: 90%;
+}

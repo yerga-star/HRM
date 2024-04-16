@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'CircularStd';
+  src: url('/assets/fonts/circular-std-medium-500.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "CircularStd", sans-serif;
+overflow: hidden;
+}
+.layout-container {
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+.header-container {
+  background: linear-gradient(to right, #ec4a05, #c5803b);
+  color: #fff; 
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+.body-container{
+  display: flex;
+  padding-top: 50px;
+  flex: 1;
+}
+main{
+flex: 1;
+background-color: #ecebeb;
+height: 90vh;
+overflow-y: auto;
+}
+
+.site-logo {
+  display: flex; 
+  text-decoration: none; 
+  color: #fff;
+  align-items: center;
+}
+h3,h2,h4{
+  font-weight: 400;
+}
+.logo-img {
+  height: 40px;
+}
+.header-left h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-icons {
+  display: flex;
+}
+
+.header-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  position: relative;
+}
+
+.header-icon span {
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: -18px;
+}
+
+.admin-avatar-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+  background-color: #fff;
+}
+
+.header-box input[type="text"] {
+  padding: 8px 12px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 15px;
+  outline: none;  
+  margin-right: 20px;
+  color: white;
+  background-color: rgba(202, 166, 133, 0.8);
+}
+
+.header-box input[type="text"]::placeholder {
+  color: white; /* Adjust placeholder color */
+}
